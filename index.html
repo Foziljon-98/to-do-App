@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+</head>
+<body> 
+    <nav class="navbar navbar-expan-lg navbar-dark bg-dark d-flex justify-content-beatwen">
+        <div class="container header">
+            <div>
+                <a href="#" class="navbar-brand">Todo App</a>
+            </div>
+            <div class="d-flex justify-content-beatwen m-2 me-auto">
+                <select class="form-select theme-selector text-light">
+                    <option class="text-dark" value="dark">Dark</option>
+                    <option class="text-dark" value="light">Light</option>
+                    <option class="text-dark" value="custom">Custom</option>
+                </select>
+                <div>
+                    <button class="btn btn-danger signOutBtn">Sign out</button>
+                </div>
+            </div>
+            
+        </div>
+    </nav>
+
+    <div class="intro_items">
+        <div class="container-fluid m-0 p-0 carousel_container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item carousel_img1 active">
+                      
+                  </div>
+                  <div class="carousel-item carousel_img2 ">
+                    
+                  </div>
+                  <div class="carousel-item carousel_img3 ">
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+    
+        <div class="form col-lg-5 form_task">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title mb-0 text-center">Add new task</h3>
+                </div>       
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control title" placeholder="Title">
+                    </div>
+                    <div class="mb-3">
+                        <textarea type="text" class="form-control content" rows="5" placeholder="Description"></textarea>
+                    </div>
+                    <div class="mb-3 submitBtn_box">
+                        <button  class="btn btn-success btn-lg submitBtn">New task</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5 cards_js">
+        <div class="row cards ">           
+        </div>
+    </div>
+
+
+    <div class="container-fluid footer_container">
+        <div class="soshial">
+            <div class="wrapper1">
+                <ul>
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-whatsapp" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+            <div class="text-center">
+                <h6 class="text-light">© 2020 - 2021 Privacy policy Manage cookies</h6>
+            </div>                   
+        </div>                   
+    </div>
+
+    
+
+
+
+
+   
+
+
+    <script  src="js/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js
+    "></script>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
